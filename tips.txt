@@ -1,0 +1,4 @@
+#git add file
+会新增./git/description 文件
+[zjw@Centos6564 git_notes]$ cat .git/description
+Unnamed repository; edit this file description to name the repository.
