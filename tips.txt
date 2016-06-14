@@ -2,3 +2,9 @@
 会新增./git/description 文件
 [zjw@Centos6564 git_notes]$ cat .git/description
 Unnamed repository; edit this file description to name the repository.
+
+#无密码git push
+	git remote rm origin
+	git remote add origin git@github.com:mathzzz/git_notes.git
+	ssh-keygen -C zhuangjuwei@163.com -t rsa
+	在github.com >> edit profile >> SSH and GPG keys >> NEW SSH key 
